@@ -1,11 +1,11 @@
 # Image01
-カメラ画像を取得するコード
+<カメラ画像を取得するコード>
 
 
-import cv2でopencvをインポート。
+1行目：import cv2でopencvをインポート。
 
-cap = cv2.VideoCapture(0)でVideoCaptureオブジェクトを取得。
+3行目：cap = cv2.VideoCapture(0)でVideoCaptureオブジェクトを取得。
 
-frameに読み取った画像を格納し、imshowで表示。
+7~9行目：frameに読み取った画像を格納し、imshowで表示。
 
-cap.release()でVideoCaptureオブジェクトを解放。
+13行目：cap.release()でVideoCaptureオブジェクトを解放。
